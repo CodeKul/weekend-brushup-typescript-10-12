@@ -1,8 +1,8 @@
 class My {
-	plsRun() {
-		console.log('hello');
+	plsRun(msg) {
+		console.log('hello '+msg);
 	}
 }
 
 var m = new My();
-m.plsRun();
+m.plsRun('Android');
