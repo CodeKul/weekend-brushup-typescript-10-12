@@ -12,4 +12,4 @@ var Calc = (function () {
 }());
 exports.Calc = Calc;
 var c = new Calc();
-c.sum('aF', 45);
+c.sum(45, 45);
