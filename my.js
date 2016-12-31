@@ -6,3 +6,10 @@ class My {
 
 var m = new My();
 m.plsRun('Android');
+
+let num = 10;
+if(true) {
+	let num = 20;
+}
+
+console.log('Num is '+num);
